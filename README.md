@@ -23,3 +23,17 @@ In your `conanfile.txt` file, add:
 trompeloeil/develop@rollbear/testing
 ```
 
+## Latest stable release
+
+# Install
+
+`$ conan install trompeloeil/v17@rollbear/stable --build`
+
+# Project setup
+
+In your `conanfile.txt` file, add:
+
+```
+[requires]
+trompeloeil/v17@rollbear/stable
+```
