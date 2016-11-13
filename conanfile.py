@@ -2,7 +2,7 @@ from conans import ConanFile, CMake
 
 class TrompeloeilConan(ConanFile):
     name = "trompeloeil"
-    version = "v19"
+    version = "v21"
     license = "Boost"
     author = "Bjorn Fahller (bjorn@fahller.se)"
     url = "https://github.com/rollbear/trompeloeil-conan.git"
@@ -12,7 +12,7 @@ class TrompeloeilConan(ConanFile):
         None # header only
 
     def source(self):
-        self.run("git clone https://github.com/rollbear/trompeloeil.git --branch v19")
+        self.run("git clone https://github.com/rollbear/trompeloeil.git --branch v21")
 
     def package(self):
         self.copy("*.hpp", dst="include", src="trompeloeil")

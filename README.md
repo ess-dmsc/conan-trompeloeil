@@ -27,7 +27,7 @@ trompeloeil/develop@rollbear/testing
 
 # Install
 
-`$ conan install trompeloeil/v19@rollbear/stable --build`
+`$ conan install trompeloeil/v21@rollbear/stable --build`
 
 # Project setup
 
@@ -35,5 +35,5 @@ In your `conanfile.txt` file, add:
 
 ```
 [requires]
-trompeloeil/v19@rollbear/stable
+trompeloeil/v21@rollbear/stable
 ```
