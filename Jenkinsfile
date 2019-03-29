@@ -6,7 +6,7 @@ project = "conan-trompeloeil"
 
 conan_remote = "ess-dmsc-local"
 conan_user = "ess-dmsc"
-conan_pkg_channel = "stable"
+conanPackageChannel = 'stable'
 
 containerBuildNodes = [
   'centos': ContainerBuildNode.getDefaultContainerBuildNode('centos7'),
