@@ -1,3 +1,5 @@
+**Obsolete, official package is on conan-center: https://bintray.com/trompeloeil/trompeloeil/trompeloeil%3Arollbear**
+
 # trompeloeil conan package
 
 This is a [Conan.io](https://www.conan.io) package for the
